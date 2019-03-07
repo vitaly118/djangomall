@@ -1,0 +1,42 @@
+{
+  "name": "djangomall",
+  "version": "0.0.0",
+  "description": "djangomall app",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack -p",
+    "watch": "webpack --mode=development --progress --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitaly118/djangomall.git"
+  },
+  "author": "shiyanlou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitaly118/djangomall/issues"
+  },
+  "homepage": "https://github.com/vitaly118/djangomall#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.6",
+    "webpack-bundle-tracker": "^0.4.2-beta",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}
